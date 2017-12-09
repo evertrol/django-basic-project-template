@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    '{{ project_name }}.apps.main',
+    #'{{ project_name }}.apps.<app-name>',
 ]
 
 ROOT_URLCONF = '{{ project_name }}.urls'
